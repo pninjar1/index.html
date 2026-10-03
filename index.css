@@ -1,4 +1,142 @@
-h1{
-    color: yellow;
-    background-color: green;
+ body{
+    justify-content: space-evenly;
+ }
+ nav{
+  display: flex;
+align-items: center;
+  justify-content: space-between;
+  font-size: 50px;
+  flex-direction: row;
+}
+
+ nav h1 {
+  margin: 0px;
+  color: red;
+ }
+nav .links{
+  display: flex;
+  gap: 50px;
+  color: green;
+
+}
+
+ 
+ .navflex{
+    margin: 15px;
+padding: 10px;
+  width:70% ;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+ }
+  .logo{
+color: aqua;
+font-size:30px ;
+font-weight: 800;
+margin-right: 50px;
+  }
+  .navlink{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+  }
+  a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.link{
+margin-left:  40px;
+color: red;
+font-size: 100px;
+font-weight: 600;
+justify-content: space-between;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+}
+
+
+img:hover{
+box-shadow: 16px 18px 15px 20px yellow;
+  background-image:url(car1.jpg);
+
+}
+.column3{
+width: 90%;
+margin: 40px auto;
+display: flex;
+flex-direction: row;
+gap: 20px;
+font-size: 58px;
+font-weight: bold;
+justify-content: space-between;
+}
+.column-1{
+width: 33.3%;
+padding: 28px;
+border: 6px solid blue;
+border-radius: 15px;
+background-color: yellow;
+font-size: 58px;
+font-weight: bold;
+display: flex;
+flex-direction: row;
+}
+.column-1:hover{
+color: rebeccapurple;
+background-color: lawngreen;
+cursor: pointer;
+transform: scale(1.05);
+
+}
+.column-2{
+width: 33.3%;
+padding: 28px;
+border: 6px solid blue;
+border-radius: 15px;
+background-color: yellow;
+font-size: 58px;
+font-weight: bold;
+display: flex;
+flex-direction: row;
+}
+.column-2:hover{
+color: rebeccapurple;
+background-color: lawngreen;
+cursor: pointer;
+transform: scale(1.05);
+}
+.column-3{
+width: 33.3%;
+padding: 28px;
+border: 6px solid blue;
+border-radius: 15px;
+background-color: yellow;
+font-size: 58px;
+font-weight: bold;
+display: flex;
+flex-direction: row;
+}
+.column-3:hover{
+color: rebeccapurple;
+background-color: lawngreen;
+cursor: pointer;
+transform: scale(1.05);
+}
+.column h2{
+color: red;
+}
+.column p {
+
+    line-height: 1.5;
+    color: #ddd;
+}
+.column:hover{
+border-color: aliceblue;
+transform: translateY(-5px);
 }
